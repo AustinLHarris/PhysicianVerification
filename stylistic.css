@@ -1,0 +1,130 @@
+    .navbar-brand {
+        max-width: 100px;
+        max-height: 100px;
+        size-adjust: auto;
+    }
+
+    .bg-img {
+        background-size: cover;
+    }
+    .body1 {
+    background-image: url("sleek/background.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+   }
+   #showcase h1{
+       font-size: 50px;
+       margin-bottom: 20px;
+   }
+   #showcase{
+       background-image: url("sleek/rentalfront.jpg");
+   }
+   
+   #showcase img{
+       width: 90%;
+       margin-left: 60px;
+       height: 80%;
+       opacity: 0%;
+   }
+   #showcase .showcase-right{
+       margin-top: 90px;
+   }
+   #testimonial{
+       background: #f1f1f1;
+       padding: 50px 0 30px 0;
+       text-align: center;
+       margin-top: 40px;
+   }
+   #testimonial p{
+       font-size: 32px;
+       color:black;
+   }
+   #testimonial p.customer{
+    font-size: 20px;
+    color:#666;
+}
+    #info1 img{
+        width: 80%
+    }
+    #info1 .info-right{
+        margin-top: 90px;
+    }
+    #welcome h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    #info2{
+        margin: 20px 0 60px 0;
+    }
+    #info2 img{
+        width: 80%
+    }
+    #info2 .info-left {
+        margin-top: 90px;
+    }
+    #welcome h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    #contact{
+        background:url(sleek/DeepPow.png);
+        padding: 40px;
+        color:#fff;
+        border-top: #333 7px solid;
+        border-bottom: #333 7px solid;
+    }
+   /* .body2 {
+    background-image: url("sleek/snowboards.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+   } */
+   /* .nav-link {
+       align-items: right;
+   } */
+   h1 {
+       font-family: 'Abel';
+       align-items: center;
+       font-size: 90px;
+   }
+   .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .action {
+    font-size: 40px;
+  }
+  footer{
+      padding: 10px;
+  }
+  .resize {
+    width: 50px !important;
+    height: auto;
+    width: 50px !important;
+    height: auto;
+  }
+
+  #showcase2{
+    background-image: url("sleek/Heli-Jump.jpg");
+
+  }
+  /* #showcase2 img{
+    width: 90%;
+    margin-left: 60px;
+    height: 80%;
+    opacity: 0%;
+  } */
+  #showcase2 img{
+    width: 100%;
+    /* height: 80%; */
+    /* opacity: 40%; */
+  }
+  .funtag{
+      color: #e64100;
+      font-size: 36px;
+  }
+  #trouble img{
+      opacity: 0;
+  }
