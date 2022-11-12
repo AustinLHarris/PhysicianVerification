@@ -8,7 +8,7 @@
         background-size: cover;
     }
     .body1 {
-    background-image: url("sleek/background.jpg");
+    /* background-image: url("sleek/background.jpg"); */
     background-color: #cccccc;
     background-size: cover;
    }
@@ -67,7 +67,7 @@
         font-size: 40px;
     }
     #contact{
-        background:url(sleek/DeepPow.png);
+        /* background:url(sleek/DeepPow.png); */
         padding: 40px;
         color:#fff;
         border-top: #333 7px solid;
@@ -106,10 +106,10 @@
     height: auto;
   }
 
-  #showcase2{
-    background-image: url("sleek/Heli-Jump.jpg");
+  /* #showcase2{
+    /* background-image: url("sleek/Heli-Jump.jpg"); */
 
-  }
+  /* }
   /* #showcase2 img{
     width: 90%;
     margin-left: 60px;
