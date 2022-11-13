@@ -1,5 +1,5 @@
 {
-  "name": "austinharris-technical-challenge",
+  "name": "package",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,5 @@
     "open": "^8.4.0",
     "oracledb": "^5.3.0"
   },
-  "description": ""
+  "description": "Medical Advisor uses an API to give the probability of having various illnesses based off of selected symptoms, warns about the possibility of covid, and gives\r customized advise based off of the vaccination status of the user. Now you don't have to stress about what your symptoms mean!"
 }
