@@ -1,6 +1,8 @@
+const axios = require("axios");
 
 
 async function returnPersonID(){
+
     var ID = document.getElementById("identifier").value;
     var token = document.getElementById("token").value;
     obj = findPersonID(ID,token);
@@ -11,8 +13,9 @@ async function returnPersonID(){
     document.getElementById("wrapper").innerHTML = htmlTemplate;
 }
 
+    
 async function findPersonID(studentIDNumber, token){
-    const axios = require("axios");
+
     let url = 'https://api.byu.edu/byuapi/persons/v3/' + studentIDNumber;
     const personOptions = {
         url: url,
@@ -35,7 +38,8 @@ async function findPersonID(studentIDNumber, token){
     let ageResponse;
     try{
         response = await axios(personOptions);
-        ageResponse = await axios(personAgeOptions)
+        ageResponse = await axios(personAgeOptions);
+        
         //console.log(response.data.basic.person_id.value);
     }catch (e){
         errorHandler(e, 'Persons - V3');
